@@ -1,3 +1,4 @@
+// singleton
 object Upper {
 	def upper(strings: String*) = strings.map(_.toUpperCase())
 }
